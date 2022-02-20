@@ -116,7 +116,7 @@
     .featured--watchbutton,
     .featured--mylistbutton {
         font-size: 1rem;
-        
+        padding: 10px 20px;
     }
 
     .featured--genres {
