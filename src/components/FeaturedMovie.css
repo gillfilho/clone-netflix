@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .featured {
     height: 90vh;
 }
@@ -50,7 +54,9 @@
 }
 
 .featured--buttons {
-    margin-top: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .featured--watchbutton, 
@@ -58,6 +64,7 @@
     display: inline-block;
     font-size: 1.1rem;
     font-weight: bold;
+    height: 50px;
     padding: 12px 25px;
     border-radius: 5px;
     text-decoration: none;
@@ -72,14 +79,20 @@
 } 
 
 .featured--watchbutton {
-    margin-top: 15px;
+    
     background: #fff;
     color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .featured--mylistbutton {
     background: #333;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .featured--genres {
@@ -103,6 +116,7 @@
     .featured--watchbutton,
     .featured--mylistbutton {
         font-size: 1rem;
+        
     }
 
     .featured--genres {

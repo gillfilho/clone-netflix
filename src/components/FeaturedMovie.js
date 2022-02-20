@@ -1,5 +1,6 @@
 import React from "react";
 import './FeaturedMovie.css';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 export default ({item}) => {
 
@@ -32,8 +33,8 @@ export default ({item}) => {
                         <div className="featured--seasons">{item.number_of_seasons} temporada{item.number_of_seasons > 1 ? 's' : ''}</div>
                     </div>
                     <div className="featured--description">{description}</div>
-                    <div className="featured-buttons">
-                        <a className="featured--watchbutton" href={`/watch/${item.id}`}>▶ Assistir</a>
+                    <div className="featured--buttons">
+                        <a className="featured--watchbutton" href={`/watch/${item.id}`}> <PlayArrowIcon /> Assistir</a>
                         <a className="featured--mylistbutton" href={`/list/add/${item.id}`}>+ Minha Lista</a>
                     </div>
                     <div className="featured--genres">

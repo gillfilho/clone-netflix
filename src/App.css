@@ -37,3 +37,9 @@ footer {
 .loading img {
     width: 500px;
 }
+
+@media (max-width: 760px) {
+    .lists {
+        margin-top: -80px;
+    }
+}
